@@ -1,0 +1,31 @@
+.App {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .booking-form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .booking-form label {
+    margin-bottom: 10px;
+  }
+  
+  .booking-form input {
+    padding: 8px;
+    margin-top: 4px;
+  }
+  
+  button {
+    background-color: #66ca7d;
+    color: white;
+    padding: 10px;
+    border: none;
+    margin-top: 15px;
+    cursor: pointer;
+  }
+  
