@@ -2,20 +2,22 @@ import React from 'react';
 import './Home.css'
 import { Link } from 'react-router';
 
-function Home (){
+function Home() {
   return (
     <div className="homepages">
       <header className="header">
         <h1>🎉 Event Planner </h1>
         <nav>
           <Link to={'/Homepage'}>Events</Link>
-       <Link to={'/signup'}>Contact</Link>
+          <Link to={'/signup'}>Contact</Link>
         </nav>
       </header>
 
       <section className="hero">
         <h2>Plan Your Perfect Event</h2>
         <p>From weddings to corporate meetups, we've got you covered.</p>
+
+
         <button>Get Started</button>
       </section>
 

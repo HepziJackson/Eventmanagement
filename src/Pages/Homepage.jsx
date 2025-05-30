@@ -5,8 +5,9 @@ import {styled} from 'styled-components'
 
 const Main=styled.div`
   width: 100%;
+  height: 100vh;
   display: flex;
-  background-image: url('./Images/background.jpg');
+  background-image: url('./Images/homepage.jpg');
   object-fit: cover;
   background-position: center;
 `

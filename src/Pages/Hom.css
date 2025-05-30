@@ -1,0 +1,169 @@
+/* Reset & base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  scroll-behavior: smooth;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.app {
+  overflow-x: hidden;
+}
+
+/* Navbar */
+.navbar {
+  position: fixed;
+  width: 100%;
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+  padding: 1rem 0;
+  z-index: 1000;
+}
+
+.navbar-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #1a73e8;
+  font-weight: bold;
+}
+
+.navbar a {
+  margin-left: 20px;
+  color: #333;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: #1a73e8;
+}
+
+/* Sections */
+.section {
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.home-section {
+  height: 100vh;
+  color: #fff;
+  position: relative;
+  background: url('./Images/prepared-wedding-hall.jpg') center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.home-content {
+  position: relative;
+  z-index: 1;
+}
+
+.home-content h2 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  background: #1a73e8;
+  color: #fff;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background: #0f5bbd;
+}
+
+/* About */
+.about-section {
+  background: #f9f9f9;
+}
+
+/* Services */
+.services-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.service-card {
+  background: #fff;
+  padding: 20px;
+  width: 250px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Enquiry */
+.enquiry-form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: grid;
+  gap: 15px;
+  
+}
+
+.enquiry-form input,
+.enquiry-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.enquiry-form textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+.enquiry-form button {
+  background: #1a73e8;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.enquiry-form button:hover {
+  background: #0f5bbd;
+}
+
+/* Contact */
+.contact-section {
+  background: #f2f2f2;
+}
+
+/* Footer */
+.footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
